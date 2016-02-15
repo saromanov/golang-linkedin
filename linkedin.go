@@ -13,6 +13,7 @@ type Linkedin struct {
 
 }
 
+// Create of the new access for linkedin
 func New(appId, appSecret, redirect string, scopes []string) {
 	lnConfig := &oauth2.Config {
 		ClientID: appId,
